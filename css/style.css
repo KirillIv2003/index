@@ -20,7 +20,15 @@
 }
 
 header{
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 1.4rem;
+    padding-right: 2.4rem;
+    max-width: 1146px;
 }
 
 body{
@@ -43,6 +51,8 @@ h3{
 }
 
 footer{
+    display: flex;
+
     background-color: var(--primary-color8);
     padding-top: 38px;
     padding-bottom: 35px;
@@ -53,6 +63,7 @@ p{
 }
 
 ul{
+    display: flex;
     list-style-type: none;
     margin: 0%;
     padding: 0;
@@ -82,8 +93,11 @@ img {
     font-size: 3.2rem;
     color: var(--primary-color2);
     text-align: center;
-    margin-left: 24px;
-    margin-right: 24px;
+    line-height: 1.301875;
+    /* margin-left: 2.4rem;
+    margin-right: 2.4rem; */
+    margin: 0 auto;
+    width: 327px;
 }
 
 .prim3{
@@ -104,7 +118,7 @@ img {
     color: var(--primary-color4);
     line-height: 1.3;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 
 .prim6{
@@ -113,8 +127,8 @@ img {
     color: var(--primary-color2);
     text-align: center;
     background-color: var(--primary-color3);
-    border-radius: 63px;
-    padding: 5px 14px;
+    border-radius: 6.3rem;
+    padding: 0.5rem 1.4rem;
     margin-left: auto;
     margin-right: auto;
     width: max-content;
@@ -126,7 +140,7 @@ img {
     font-weight: 400;
     color: var(--primary-color4);
     text-align: center;
-    margin-top: 12px;
+    margin-top: 1.2rem;
 }
 
 .prim8{
@@ -134,17 +148,17 @@ img {
     line-height: 150%;
     font-weight: 400;
     color: var(--primary-color4);
-    width: 324px;
-    margin-left: 24px;
-    margin-top: 30px;
-    margin-bottom: 26px;
+    width: 32.4rem;
+    margin-left: 2.4rem;
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
 }
 
 .prim9{
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 1.27;
-    margin-top: 16px;
+    margin-top: 1.6rem;
     color: var(--primary-color2);
 }
 
@@ -152,10 +166,10 @@ img {
     font-size: 1.6rem;
     line-height: 1.3;
     font-weight: 400;
-    color: var(--primary-color);
-    margin-bottom: 40px;
-    margin-left: 45px;
-    width: 276px;
+    color: var(--primary-color2);
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    width: 27.6rem;
 }
 
 .prim11{
@@ -164,36 +178,65 @@ img {
     font-size: 1.2rem;
     line-height: 180%;
     color: var(--primary-color5);
-    width: 111px;
-    padding-bottom: 3px;
-    margin-left: 24px;
+    width: 11.1rem;
+    padding-bottom: 0.3rem;
+    margin-left: 2.4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .prim12{
-    color: var(--primary-color);
-    margin-bottom: 38px;
-    margin-left: 45px;
+    color: var(--primary-color2);
+    margin-bottom: 3.8rem;
+    margin-left: 2rem;
 }
 
-
-
 .prim13{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3rem;
 }
 
 .prim14{
     display: block;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prim14_1{
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
 .prim15{
     text-align: center;
     background-color: var(--primary-color3);
-    padding: 16px 48px;
-    border-radius: 100px;
+    padding: 1.6rem 4.8rem;
+    border-radius: 10rem;
     margin: 0 auto;
-    width: 327px;
+    width: 32.7rem;
+}
+
+.prim15_1{
+    display: flex;
+    column-gap: 1rem;
+    text-align: center;
+    background-color: var(--primary-color3);
+    padding: 1.6rem 3.3rem;
+    border-radius: 10rem;
+    margin: 0 auto;
+    width: 28.8rem;
+}
+
+.prim15_2{
+    text-align: center;
+    background-color: var(--primary-color3);
+    padding: 1.6rem 4.8rem;
+    border-radius: 10rem;
+    margin: 0 auto;
+    width: 32.7rem;
 }
 
 .prim16{
@@ -204,63 +247,72 @@ img {
     background: var(--primary-color9);
     border-radius: 6.25em;
     padding: 0.625em 1.5em;
+    margin-top: 1.8rem;
 }
 
 .prim17{
-    width: 65px;
+    width: 6.5rem;
     height: 18px;
-    
+    text-align: center;
+    margin: 0 auto;
     }
 
 .prim18{
-    width: 144px;
+    width: 14.4rem;
+    margin-top: 1.3rem;
+    
 }
 
 .prim19{
-    padding-bottom: 40px;
-    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    
 }
 
 .prim20{
     width: 260px;
     color: var(--primary-color10);
-    margin-left: 25px;
+    margin-left: 2.5rem;
 
 }
 
 .prim21{
-    height: 705px;
+    height: 70.5rem;
     color: var(--primary-color);
     background-color: var(--primary-color2);
-    padding-top: 144px;
-    padding-bottom: 162px;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
 }
 
 .prim22{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .prim23{
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
 .prim24{
-    display: block;
-    width: 327.76px;
-    padding-top: 56px;
-    padding-bottom: 53px;
-    margin-top: 30px;
+    display: flex;
+    width: 32.776rem;
+    padding-top: 5.6rem;
+    padding-bottom: 5.3rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 24px;
+    border-radius: 2.4rem;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--primary-color7);
 }
 
 .prim25{
-    margin-bottom: 42px;
+    margin-bottom: 4.2rem;
 }
 
 .prim26{
@@ -269,7 +321,7 @@ img {
 }
 
 .prim27{
-    margin-left: 24px;
+    margin-left: 2.4rem;
 }
 
 .prim28{
@@ -277,19 +329,77 @@ img {
     line-height: 150%;
     font-weight: 400;
     color: var(--primary-color4);
-    width: 324px;
-    margin-left: 24px;
-    margin-bottom: 30px;
+    width: 32.4rem;
+    margin-left: 2.4rem;
+    margin-bottom: 3rem;
 }
 
 .prim29{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .prim30{
-    padding-bottom: 108px;
-    padding-top: 40px;
+    padding-bottom: 10.8rem;
+    padding-top: 4rem;
 }
+
+.prim31{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 1.6rem;
+    justify-content: center;
+    
+
+}
+
+.prim32{
+    display: flex;
+
+}
+
+.prim33{
+    width: 32.8rem;
+    padding-top: 6.4rem;
+    padding-bottom: 7.9rem;
+    background-color: var(--primary-color7);
+    margin: 0 auto;
+    border-radius: 2.4rem;
+}
+
+.prim34{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.prim35{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.prim36{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.8rem;
+}
+
+.prim37{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.8rem;
+}
+
+.prim38{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.8rem;
+}
+
+
 
 .facebook{
     width: 20px;
@@ -318,4 +428,126 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+
+@media (min-width: 1145px) {
+    /* секция 1 сребёнком */
+    .prim19{
+        display: flex;
+        max-width: 1145px;
+        height: 560px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        
+    }
+    .prim15{
+        display: inline;
+        padding: 1.6rem 4.8rem;
+        border-radius: 10rem;
+        margin-top: 4.8rem;
+        margin-left: 0;
+        width: 327px;
+    }
+    .prim14{
+        display: block;
+        order: 5;
+        /* margin-top: 4rem;
+        margin-bottom: 3rem; */
+        margin: auto auto;
+        /* margin-left: 672px;
+        margin-right: 96px; */
+    }
+    .prim2{
+        margin:0 auto;
+        margin-top: 9.1rem;
+        font-size: 4.8rem;
+        line-height: 1.302083;
+        height: 248px;
+        text-align: left;
+        width: 52.3rem;
+        margin-left: 0;
+    }
+    .prim5{
+        margin-top: 1rem;
+        text-align: left;
+        margin-left: 3.15rem;
+        
+    }
+    /* секция 3 с steps */
+    .prim35{
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .prim23{
+        margin-top: 1.8rem;
+        margin-bottom: 5.9rem;
+        font-size: 4.2rem;
+    }
+    .prim13{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+        max-width: 1146px;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .prim24{
+        width: 26.4rem;
+        margin-top: 0;
+    }
+    .prim7{
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+    }
+    /* секция 4 с девущкой */
+    .prim30{
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        max-width: 1145px;
+        margin: 0 auto;
+    }
+    /* секция 5 why us */
+    .prim26{
+        font-size: 4.8rem;
+    }
+    .prim36{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 13.8rem;
+        margin-bottom: 9rem;
+        width: 1146px;
+        height: 528px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        column-gap: 12.8rem;
+    }
+    .prim14_1{
+        display: block;
+        /* margin-top: 4rem;
+        margin-bottom: 3rem; */
+        margin: auto auto;
+        margin-bottom: 0;
+        height: 528px;
+    }
+    .prim27{
+        margin: 0;
+        margin-top: 6.9rem;
+        font-size: 3.6rem;
+    }
+    .prim8{
+        margin: 0;
+        margin-top: 1.6rem;
+        font-size: 2.1rem;
+        line-height: 150%;
+        width: 460px;
+    }
+    .prim15_2{
+        margin: 0;
+        margin-top: 4.8rem;
+    }
 }
