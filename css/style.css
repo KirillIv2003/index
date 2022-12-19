@@ -51,11 +51,19 @@ h3{
 }
 
 footer{
-    display: flex;
-
     background-color: var(--primary-color8);
     padding-top: 38px;
     padding-bottom: 35px;
+}
+
+.footer_1{
+    display: flex;
+    margin: 0 2.4rem;
+    max-width: 1128px;
+    min-width: 327px;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 14.4rem;
 }
 
 p{
@@ -70,6 +78,12 @@ ul{
 }
 
 a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:var(--primary-color2);
+}
+
+.a_1{
     font-size: 1.4rem;
     text-decoration: none;
     color:var(--primary-color2);
@@ -154,6 +168,28 @@ img {
     margin-bottom: 2.6rem;
 }
 
+.prim8_1{
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--primary-color4);
+    width: 32.4rem;
+    margin-left: 2.4rem;
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+}
+
+.prim8_2{
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--primary-color4);
+    width: 32.4rem;
+    margin-left: 2.4rem;
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+}
+
 .prim9{
     font-weight: 700;
     font-size: 1.8rem;
@@ -172,17 +208,35 @@ img {
     width: 27.6rem;
 }
 
+.prim10_1{
+    font-size: 1.6rem;
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--primary-color2);
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    width: 27.6rem;
+}
+
+
 .prim11{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 180%;
     color: var(--primary-color5);
-    width: 11.1rem;
+    min-width: 11.1rem;
     padding-bottom: 0.3rem;
-    margin-left: 2.4rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+}
+
+.ul11{
+    display: block;
+    min-width: 111px;
+    width: max-content;
 }
 
 .prim12{
@@ -210,6 +264,16 @@ img {
     margin-bottom: 3rem;
 }
 
+.prim14_2{
+    display: block;
+    margin: 0;
+}
+
+.prim14_3{
+    display: block;
+    margin: 0 auto;
+}
+
 .prim15{
     text-align: center;
     background-color: var(--primary-color3);
@@ -230,7 +294,18 @@ img {
     width: 28.8rem;
 }
 
+
+
 .prim15_2{
+    text-align: center;
+    background-color: var(--primary-color3);
+    padding: 1.6rem 4.8rem;
+    border-radius: 10rem;
+    margin: 0 auto;
+    width: 32.7rem;
+}
+
+.prim15_3{
     text-align: center;
     background-color: var(--primary-color3);
     padding: 1.6rem 4.8rem;
@@ -279,7 +354,7 @@ img {
 }
 
 .prim21{
-    height: 70.5rem;
+    min-height: 70.5rem;
     color: var(--primary-color);
     background-color: var(--primary-color2);
     padding-top: 8rem;
@@ -324,6 +399,10 @@ img {
     margin-left: 2.4rem;
 }
 
+.prim27_1{
+    margin-left: 2.4rem;
+}
+
 .prim28{
     font-size: 1.6rem;
     line-height: 150%;
@@ -334,8 +413,14 @@ img {
     margin-bottom: 3rem;
 }
 
+
 .prim29{
+    display: flex;
     margin-bottom: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1rem;
 }
 
 .prim30{
@@ -355,7 +440,8 @@ img {
 
 .prim32{
     display: flex;
-
+    gap: 3.2rem;
+    flex-wrap: wrap;
 }
 
 .prim33{
@@ -365,6 +451,10 @@ img {
     background-color: var(--primary-color7);
     margin: 0 auto;
     border-radius: 2.4rem;
+}
+
+.prim33_1{
+    display: block;
 }
 
 .prim34{
@@ -399,7 +489,23 @@ img {
     width: 32.8rem;
 }
 
+.prim39{
+    display: flex;
+    flex-direction: column;
+    width: 16.5rem;
+}
 
+.prim40{
+    display: flex;
+    flex-direction: column;
+    width: 15.2rem;
+}
+
+.prim41{
+    display: block;
+    margin: 0 auto;
+    width: 32.4rem;
+}
 
 .facebook{
     width: 20px;
@@ -417,6 +523,10 @@ img {
     width: 20px;
 }
 
+.iphone{
+    display: none;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -432,6 +542,12 @@ img {
 
 
 @media (min-width: 1145px) {
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
     /* секция 1 сребёнком */
     .prim19{
         display: flex;
@@ -549,5 +665,168 @@ img {
     .prim15_2{
         margin: 0;
         margin-top: 4.8rem;
+    }
+    .prim37{
+        display: flex;
+        margin: 0 auto;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        width: 1146px;
+        height: 660px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .prim27_1{
+        margin: 0;
+        margin-top: 5.525rem;
+        font-size: 3.6rem;
+    }
+    .prim8_1{
+        margin: 0;
+        margin-top: 1.6rem;
+        font-size: 2.1rem;
+        line-height: 150%;
+        width: 460px;
+        margin-bottom: 4.05rem;
+    }
+    .prim9{
+        font-size: 2rem;
+    }
+    .prim29{
+        column-gap: 9rem;
+        margin-bottom: 0;
+    }
+    .prim39{
+        width: 18.5rem;
+        height: 9rem;
+    }
+    .prim40{
+        width: 185px;
+        height: 90px;
+    }
+    .prim15_3{
+        margin: 0;
+        margin-top: 4.8rem;
+        margin-bottom: 5.525rem;
+    }
+    .prim38{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 13.8rem;
+        margin-bottom: 9rem;
+        width: 1146px;
+        height: 528px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        column-gap: 12.8rem;
+    }
+    /* секция 6 с айфоном */
+    .prim21{
+        margin: 0 auto;
+        padding-top: 18rem;
+        padding-bottom: 9.1rem;
+    }
+    .prim33{
+        display: flex;
+        width: 1146px;
+        height: 496px; 
+        padding: 5.9rem 10.8rem 6.2rem 13rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .iphone{
+        display: block;
+        width: max-content;
+        height: auto;
+        margin-top: -14.9rem;
+    }
+    .prim12{
+        margin: 0;
+        font-size: 4.2rem;
+    }
+    .prim10{
+        margin: 0;
+        margin-top: 2.4rem;
+        margin-bottom: 4rem;
+        font-size: 1.8rem;
+        width: 36.3rem;
+    }
+    .prim10_1{
+        margin: 0;
+        font-size: 1.8rem;
+        width: 36.3rem;
+    }
+    .prim15_1{
+        margin-top: 4rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        justify-content: center;
+        width: 36.3rem;
+    }
+    .a_1{
+        font-size: 1.8rem;
+    }
+    .prim33_1{
+        display: block;
+        height: 37.5rem;
+        width: 36.3rem;
+    }
+    /* секция 7 белая */
+    .prim1{
+        padding: 12rem auto;
+    }
+    .prim14_3{
+        order: 3;
+        margin: auto;
+    }
+    .prim41{
+        display: flex;
+        width: 1145px;
+        height: 527.87px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    .prim20{
+        margin: 0;
+        margin-top: 14.394rem;
+        font-size: 4.2rem;
+        width: max-content;
+    }
+    .prim8_2{
+        margin: 0;
+        margin-top: 1.6rem;
+        font-size: 2.1rem;
+        line-height: 150%;
+        width: 460px;
+        margin-bottom: 14rem;
+    }
+    /* футер */
+    footer{
+        padding-top: 4.8rem;
+        padding-bottom: 4.7rem;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .footer_1{
+        display: flex;
+        margin: 0 auto;
+        max-width: 1128px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .prim11{
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        gap: 0.5rem;
+    }
+    .prim32{
+        display: flex;
+        flex-direction: row;
+        column-gap: 3.2rem;
     }
 }
