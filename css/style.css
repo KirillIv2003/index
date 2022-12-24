@@ -32,6 +32,7 @@ header{
 }
 
 body{
+    height: 100%;
     margin: 0px;
     background-color: var(--primary-color6);
 }
@@ -1060,3 +1061,259 @@ img {
     border-radius: 9.37634px;
     transform: rotate(3.5deg);
 } */
+
+/* форма */
+html, body { height: 100%;}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
+input::-webkit-input-placeholder { color: #FAAE7B; }
+
+input:valid{
+    color: blue;
+}
+
+
+
+::selection {
+    background: rgb(143, 0, 0);
+}
+
+.form1{
+    margin: auto auto;
+    width: 185px;
+    padding: 1em;
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 2rem;
+}
+
+.field1{
+    padding: 1em;
+    width: 16.8rem;
+    margin: 1rem auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+}
+
+.leg{
+    color: #FFFFFF;
+}
+
+.labtext{
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.buttonsend{
+    display: block;
+}
+
+.send{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 3.2rem;
+    margin: 0 auto;
+    gap: 0.1rem;
+    width: 16.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.9rem;
+    background-color: #ffffff;
+    border-radius: 8.2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.03em;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.strel{
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0 0.1rem;
+    fill: #CCC;
+    stroke: #CCC;
+}
+
+a:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+button:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.prim15:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.prim15_1:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+
+
+.prim15_2:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.prim16:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.prim15_3:hover{
+    background-color: blue;
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.facebook:hover{
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.insta:hover{
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.github:hover{
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+.twitter:hover{
+    transition: all 1s ease-out;
+    transform: scale(1.2);
+}
+
+
+a:active{
+    transform: translate(5px, 10px);
+}
+
+button:active{
+    transform: translate(5px, 10px);
+}
+
+.prim15:active{
+    transform: translate(5px, 10px);
+}
+
+.prim15_1:active{
+    transform: translate(5px, 10px);
+}
+
+
+
+.prim15_2:active{
+    transform: translate(5px, 10px);
+}
+
+.prim16:active{
+    transform: translate(5px, 10px);
+}
+
+.prim15_3:active{
+    transform: translate(5px, 10px);
+}
+
+.facebook:active{
+    transform: translate(5px, 10px);
+}
+
+.insta:active{
+    transform: translate(5px, 10px);
+}
+
+.github:active{
+    transform: translate(5px, 10px);
+}
+
+.twitter:active{
+    transform: translate(5px, 10px);
+}
+
+
+a:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+button:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.prim15:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.prim15_1:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+
+
+.prim15_2:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.prim16:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.prim15_3:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.facebook:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.insta:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.github:focus{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.twitter:focus{
+    background-color: red;
+    transform: scale(1.1);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="prim18"><img  src="img/8 (1) 1.png" alt="logo" clss="logotip" /></a>
+        <a href="#" class="prim16"><p class="prim17">Let's chat</p></a>
+    </header>
+
+    <form class="form1" method="post" name="contact" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" class="hiden1">
+        <fieldset class="field1">
+            <legend class="leg">Пользовательские данные</legend>
+            <div>
+                <label class="labtext">
+                    ФИО: 
+                    <input class="pole" type="text" name="name" placeholder="Иванов Кирилл Александрович" required>
+                </label>
+            </div>
+            <div>
+                <label class="labtext">
+                    Дата рождения:
+                    <input class="pole" type="date" name="date" required="">
+                </label>
+            </div>
+            
+            <fieldset>
+                <legend  class="leg">Пол:</legend>
+                <label class="labtext">
+                <input type="radio" name="gender" value="Man" checked="">
+                М
+                </label>
+                <label class="labtext">
+                <input type="radio" name="gender" value="Woman" required="">
+                Ж
+                </label>
+            </fieldset>  
+            
+            <div>
+                <label class="labtext">
+                    Пароль:
+                    <input class="pole" id="userPassword" type="password" name="password" placeholder="Не менее 8 символов" required="" minlength="8">
+                </label>
+            </div>
+        </fieldset>
+        <fieldset class="field1">
+                <legend  class="leg">Контактная информация</legend>
+                <div>
+                    <label class="labtext">
+                        Email:
+                        <input class="pole" type="email" name="email" placeholder="email@address.com">
+                    </label>
+                </div>
+                <div>
+                    <label class="labtext">
+                        Телефон:
+                        <input class="pole" type="tel" name="phone" placeholder="+7(XXX) XXX XX-XX">
+                    </label>
+                </div>
+                <div>
+                    <label class="labtext">
+                        Удобный интервал для связи :
+                        <input class="pole" type="text" name="graphic" placeholder="утро, день, вечер, ночь">
+                    </label>
+                </div>
+        </fieldset>
+        <div class="buttonsend">
+            <button class="send" type="submit">
+                Send  
+                <img class="strel" src="img/strel.svg" alt="done">
+            </button>
+        </div>
+        <div class="butreset">
+                
+            <button class="send" type="reset">
+                Remove form 
+                <img class="strel" src="img/refresh.svg" alt="Remove">
+            </button>
+        </div>
+    </form>
+    <footer>
+        <div class="footer_1">
+            <div class="ul11">
+            <ul class="prim11">
+                <li><p>© 2020 Inc.</p></li>
+                <li><p>All rights reserved</p></li>
+            </ul>
+            </div>
+            <ul class="prim32">
+            <li class="facebook">
+                <a><img src="img/Group.svg" alt="фейсбук" width="20" height="20" /></a>
+            </li>
+            <li class="insta">
+                <a><img src="img/logo-instagram.svg" alt="инста" width="20" height="20" /></a>
+            </li>
+            <li class="twitter">
+                <a><img src="img/logo-twitter.svg" alt="твитер" width="20" height="20" /></a>
+            </li>
+            <li class="github">
+                <a><img src="img/logo-github.svg" alt="гитхаб" width="20" height="20" /></a>
+            </li>
+            </ul>
+        </div>
+    </footer>
+</body>
