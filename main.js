@@ -18,13 +18,13 @@ Object
 // {
 //     km = prompt('киллометры в час');
 //     met = km * (5/18);
-//     console.log(met + ' м/с');
+//     console.log(`${met} м/с`);
 // }
 // else if (input == '2')
 // {
 //     met = prompt('метры в секунду');
 //     km = met * 3.6;
-//     console.log(km + ' км/ч');
+//     console.log(`${km} км/ч`);
 // }
 //Задание 2
 // let first = 5;
@@ -65,52 +65,65 @@ Object
 //     }
 // }
 //Задание 4
-// for (let i=0;i<12;i++)
+// let g='';
+// let r = '';
+// for (let i=0;i<20;i++)
 // {
+//     r = '';
 //     if (i%2==0)
 //     {
-//         let r = ""
+        
 //         for (let a=0;a<i;a++)
 //         {
-//             r+='#'
+//             r+='#';
 //         }
-//         console.log(r + '\n');
 //     }
 //     else
 //     {   
-//         let f = "";
 //         for (let c=0; c<i; c++)
 //         {
-//             f += '*'; 
+//             r += '*'; 
 //         }
-//         console.log(f + '\n');
 //     }
+//     g += r + '\n'
 // }
-// console.log('||');
+// console.log(g + '||');
 
 // Задание 5 НЕ ПОЛУЧИЛОСЬ
-
-// let a = 10;
-// let b = prompt('введите число');
-// // while ( b == NaN)
-// // {
-// //     b = prompt('введите число');
-// //     console.log('это не число')
-// // }
-// while (b!=a)
-// {
-//     if (b>a)
-//     {
-//         console.log('ваше число больше');
-//         b = prompt('введите число');
-//     }
-//     else
-//     {
-//         console.log('ваше чило меньше');
-//         b = prompt('введите число');
-//     }
+// var b = 6;
+// function proverka(a){
+// if (isNaN(a)) return "Вы ввели не число"
+// else if (a > b) return 'Ваше число больше'
+// else if (a < b) return'Ваше число меньше'
+// else if (a = b) return 'Угадано';
 // }
-// console.log('угадано');
+
+// do {
+// var answer = prompt('Угадайте число', 10);
+// alert(proverka(answer));
+// } while (proverka(answer) != 'Угадано');
+var a = 10;
+var b = prompt('введите число');
+
+while (b!=a)
+{   
+    if (isNaN(b))
+    {
+        console.log('это не число');
+        b = prompt('введите число');
+    }
+    else if (b>a)
+    {
+        console.log('ваше число больше');
+        b = prompt('введите число');
+    }
+    else
+    {
+        console.log('ваше чило меньше');
+        b = prompt('введите число');
+    }
+}
+console.log('угадано');
 
 
 //Задние 6
@@ -118,7 +131,7 @@ Object
 // let n = prompt('число n');
 // let x = prompt('число x');
 // let y = prompt('число y');
-// if (n<=0 || x<=0 || y<=0)
+// if (n<=0 && x<=0 && y<=0)
 // {
 //     console.log('числа должны быть больше 0');
 // }
