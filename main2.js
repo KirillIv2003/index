@@ -1,15 +1,21 @@
 //Задание 1
-
 // let input = prompt("ВВедине 1 если мз км/ч и 2 если из м/с");
 
-// function convertSpeed(ms, kmh){
+// function convertSpeed(){
 //     if (input == 1)
-//         return kmh = prompt('киллометры в час'), ms = kmh * (5/18), console.log(`convertSpeed(${kmh},'toMS') -> '${ms}'`);
+//         return `${kmh * (5/18)} м/с`;
 //     else if (input == 2)
-//         return ms = prompt('метры в секунду'), kmh = ms * (18/5), console.log(`convertSpeed(${ms},'toKMH') -> '${kmh}'`);
+//         return `${ms * (18/5)} км/ч`;
 // }
 
-// console.log(convertSpeed());
+// if (input=='1'){
+//     kmh = prompt('киллометры в час');
+//     console.log(`convertSpeed(${kmh},'toMS') -> ${convertSpeed()}`);
+// }
+// else if(input=='2'){
+//     ms = prompt('метры в секунду');
+//     console.log(`convertSpeed(${ms},'toKMH') -> ${convertSpeed()}`);
+// }
 
 //Задние 2
 
@@ -42,13 +48,12 @@
 
 // console.log(`randomNumber(-20, 20) -> ${myrandom(-20, 20)}`);
 
-//Задние 5
+// //Задние 5
 // function sampleArray(arr, a){
 //     let random;
 //     let mass = new Array();
 //     for (let i=0; i<a; i++){
-//         random = Math.floor(Math.random() * arr.length);
-//         mass.push(random);
+//         mass.push(myrandom(0, arr.length));
 //     }
 //     return mass;
 // }
