@@ -102,28 +102,28 @@ Object
 // var answer = prompt('Угадайте число', 10);
 // alert(proverka(answer));
 // } while (proverka(answer) != 'Угадано');
-var a = 10;
-var b = prompt('введите число');
+// var a = 10;
+// var b = prompt('введите число');
 
-while (b!=a)
-{   
-    if (isNaN(b))
-    {
-        console.log('это не число');
-        b = prompt('введите число');
-    }
-    else if (b>a)
-    {
-        console.log('ваше число больше');
-        b = prompt('введите число');
-    }
-    else
-    {
-        console.log('ваше чило меньше');
-        b = prompt('введите число');
-    }
-}
-console.log('угадано');
+// while (b!=a)
+// {   
+//     if (isNaN(b))
+//     {
+//         console.log('это не число');
+//         b = prompt('введите число');
+//     }
+//     else if (b>a)
+//     {
+//         console.log('ваше число больше');
+//         b = prompt('введите число');
+//     }
+//     else
+//     {
+//         console.log('ваше чило меньше');
+//         b = prompt('введите число');
+//     }
+// }
+// console.log('угадано');
 
 
 //Задние 6
