@@ -17,20 +17,20 @@
         <a href="#" class="prim16"><p class="prim17">Let's chat</p></a>
     </header>
 
-    <form class="form1" method="post" name="contact" data-netlify="true">
+    <form class="form1" action="//httpbin.org/post" method="post" name="contact">
         <input type="hidden" name="form-name" value="contact" class="hiden1">
         <fieldset class="field1">
             <legend class="leg">Пользовательские данные</legend>
             <div>
                 <label class="labtext">
                     ФИО: 
-                    <input class="pole" type="text" name="name" placeholder="Иванов Кирилл Александрович" required>
+                    <input class="pole" type="text" name="name" placeholder="Иванов Кирилл Александрович">
                 </label>
             </div>
             <div>
                 <label class="labtext">
                     Дата рождения:
-                    <input class="pole" type="date" name="date" required="">
+                    <input class="pole" type="date" name="date">
                 </label>
             </div>
             
@@ -41,7 +41,7 @@
                 М
                 </label>
                 <label class="labtext">
-                <input type="radio" name="gender" value="Woman" required>
+                <input type="radio" name="gender" value="Woman">
                 Ж
                 </label>
             </fieldset>  
@@ -49,7 +49,7 @@
             <div>
                 <label class="labtext">
                     Пароль:
-                    <input class="pole" id="userPassword" type="password" name="password" placeholder="Не менее 8 символов" required="" minlength="8">
+                    <input class="pole" id="userPassword" type="text" name="password" placeholder="Не менее 8 символов">
                 </label>
             </div>
         </fieldset>
@@ -73,6 +73,39 @@
                         <input class="pole" type="text" name="graphic" placeholder="утро, день, вечер, ночь">
                     </label>
                 </div>
+        </fieldset>
+        <div class="buttonsend">
+            <button class="send" type="submit">
+                Send  
+                <img class="strel" src="img/strel.svg" alt="done">
+            </button>
+        </div>
+        <div class="butreset">
+                
+            <button class="send" type="reset">
+                Remove form 
+                <img class="strel" src="img/refresh.svg" alt="Remove">
+            </button>
+        </div>
+        <div class="login-register">
+            <p class="leg">If you haven't account</p>
+            <button class="register-button" type="button">Register</button>
+        </div>
+    </form>
+
+    <form class="form2" method="post" name="contact">
+        <input type="hidden" name="form-name" value="contact" class="hiden1">
+        <fieldset class="field1">
+                <legend  class="leg">Регистрация</legend>
+                <div class="pole-reg">
+                    <label class="labtext">
+                        Email:
+                        <input class="pole" type="email" name="email" placeholder="email@address.com">
+                    </label>
+                    <label class="labtext">
+                    Пароль:
+                    <input class="pole" id="userPassword" type="password" name="password" placeholder="Не менее 8 символов" required="" minlength="8">
+                </label>
         </fieldset>
         <div class="buttonsend">
             <button class="send" type="submit">

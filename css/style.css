@@ -1089,6 +1089,16 @@ input:valid{
     border: 1px solid #FFFFFF;
     border-radius: 1em;
     margin-bottom: 2rem;
+    /* display: none; */
+}
+
+.form2{
+    margin: auto auto;
+    width: 185px;
+    padding: 1em;
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 2rem;
 }
 
 .field1{
@@ -1316,4 +1326,18 @@ button:focus{
 .twitter:focus{
     background-color: red;
     transform: scale(1.1);
+}
+
+.login-register{
+    display: flex;
+    gap: 4px;
+    align-items: center
+}
+
+.pole-reg{
+    padding-bottom: 1rem;
+}
+
+.register-button{
+    border-radius: 30%;
 }
