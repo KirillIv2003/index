@@ -40,25 +40,25 @@
 
 //Задние 4
 
-function myrandom(min, max){
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min);
-}
+// function myrandom(min, max){
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min) + min);
+// }
 
-//console.log(`randomNumber(-20, 20) -> ${myrandom(-20, 20)}`);
+// //console.log(`randomNumber(-20, 20) -> ${myrandom(-20, 20)}`);
 
-//Задние 5
-function sampleArray(arr, a){
-    //let random;
+// //Задние 5
+// function sampleArray(arr, a){
+//     //let random;
     
-    let mass = new Array();
-    for (let i=0; i<a; i++){
-        let l = arr[myrandom(0, arr.length)];
-        mass.push(l);
-    }
-    return mass;
-}
-let b = prompt('введите число от 1 до 9');
-let arr= [100,356,847,212,308,734,283,246,438];
-console.log(sampleArray(arr,b));
+//     let mass = new Array();
+//     for (let i=0; i<a; i++){
+//         let l = arr[myrandom(0, arr.length)];
+//         mass.push(l);
+//     }
+//     return mass;
+// }
+// let b = prompt('введите число от 1 до 9');
+// let arr= [100,356,847,212,308,734,283,246,438];
+// console.log(sampleArray(arr,b));
